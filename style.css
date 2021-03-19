@@ -1,0 +1,80 @@
+body {
+  background: #caf0f8;
+  font-family: 'Kalam', cursive;
+  font-weight: 700;
+}
+
+h1, h2, h3 {
+  font-weight: 400;
+}
+
+h1 {
+  color:#3a0ca3
+}
+
+p {
+  font-family: 'Kalam', cursive;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+.card-blue {
+  background-color: aliceblue;
+  padding: 30px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.card-blue ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.card-blue ul li {
+  display: inline;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+button {
+  background-color:dodgerblue;
+  color:mintcream;
+  padding: 15px 20px;
+  border-radius: 4px;
+  border: none;
+  font-family: 'Kalam', cursive;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btn-blue {
+  color: mintcream;
+  text-decoration: none;
+}
+
+.languages {
+  display: inline;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 200px;
+  }
+
+  .img-circle {
+    width: 50%;
+  }
+}
